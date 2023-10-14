@@ -111,30 +111,23 @@ In short, React is the core library for building user interfaces, providing the 
 
 <h4>Q: 
 Difference between react.development.js and react.production.js files via CDN<h4>
-
-<h5>>react.development.js:</h5
-
 <ol>
-<li>
+<h5>react.development.js:</h5>
 
-This file is meant for development and debugging purposes.</li>
+<li>This file is meant for development and debugging purposes.</li>
 
-<li>
-It contains helpful error messages and warnings that are designed to assist developers in identifying and fixing issues in their code.</li>
-<li>
-The file is larger in size because it includes additional development-related code and checks.</li>
-<li>
-When you use react.development.js, you'll receive more detailed error messages and warnings in the browser's console, making it easier to diagnose problems during development.</li>
+<li>It contains helpful error messages and warnings that are designed to assist developers in identifying and fixing issues in their code.</li>
+<li>The file is larger in size because it includes additional development-related code and checks.</li>
+<li>When you use react.development.js, you'll receive more detailed error messages and warnings in the browser's console, making it easier to diagnose problems during development.</li>
 
 </ol>
 <h5>react.production.js:</h5>
 
 <ol>
-<li>
-This file is intended for production use, meaning it's used when your application is ready to be deployed to a live environment.</li><li>
-It has been optimized for performance and is smaller in size compared to the development version.</li><li>
-Most of the error-checking and warning messages have been removed or minimized to reduce the size of the file and improve runtime performance.</li><li>
-When using react.production.js, your application should run more efficiently, but you may receive less detailed error information in the console, making it less suitable for debugging.</li>
+<li>This file is intended for production use, meaning it's used when your application is ready to be deployed to a live environment.</li>
+<li>It has been optimized for performance and is smaller in size compared to the development version.</li>
+<li>Most of the error-checking and warning messages have been removed or minimized to reduce the size of the file and improve runtime performance.</li>
+<li>When using react.production.js, your application should run more efficiently, but you may receive less detailed error information in the console, making it less suitable for debugging.</li>
 </ol>
 
 </div>
