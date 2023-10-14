@@ -68,14 +68,39 @@ React follows a unidirectional data flow. Data flows from parent components to c
 <h4> Q: What is cross-origin in the script tag</h5>
 
  <div style = "font-size:20px">
- <div style ="margin-bottom :8px">
+ <div style ="margin-bottom :15px">
 The "cross-origin"  in the context of a script tag  tells about to the security policy known as the "Same-Origin Policy." This policy is a fundamental web security measure designed to protect user data and privacy.
 </div>
-<div style ="margin-bottom :8px">
+<div style ="margin-bottom :15px">
 The Same-Origin Policy dictates that web pages can only make requests (such as loading scripts) to the same origin (domain, protocol, and port) from which the web page originated. If you try to load a script from a different origin, the browser will block it due to security concerns.
 </div>
 
-<div style ="margin-bottom :8px">
+<div style ="margin-bottom :15px">
 For example, if you have a web page hosted at https://example.com, and you try to load a script from https://anotherdomain.com, you'll likely encounter a "cross-origin" issue. The browser will prevent the script from being executed to protect against potential security threats, like cross-site scripting (XSS) attacks.
 </div>
+</div>
+
+<div>
+<h4>What is difference  React and react-DOM</h4>
+
+<h5>React and ReactDOM are two related but distinct libraries in the React ecosystem, and they serve different purposes:</h5>
+
+<h5>React:</h5>
+<div style ="margin-bottom :15px"></div>
+<div style ="margin-bottom :15px">React is the core library for building user interfaces in the React ecosystem.</div>
+
+<div style ="margin-bottom :15px">It provides the foundational concepts for creating and managing components, handling state and props, and rendering UI elements.</div>
+
+<h5>React-DOM:</h5>
+
+<div style ="margin-bottom :15px">
+ReactDOM is a specific package within the React ecosystem that deals with rendering React components in the web browser.
+</div>
+
+<div style ="margin-bottom :15px">It provides the necessary functionality to take the components you've built using React and render them into the actual DOM (the structure of a web page).</div>
+
+<div style ="margin-bottom :15px">ReactDOM is used when you want to create web applications and render your React components in a web browser.</div>
+
+In short, React is the core library for building user interfaces, providing the foundation for creating components and managing their behavior. ReactDOM is a package within the React ecosystem specifically designed for rendering those components into the web browser's DOM. While React can be used for various platforms, ReactDOM is focused on web development. Depending on your project, you may use React with different rendering libraries or platforms, but for web applications, ReactDOM is the common choice
+
 </div>
