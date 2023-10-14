@@ -19,10 +19,11 @@
 <li>Your application is built within the framework, and you must adhere to its conventions and guidelines.</li>
 </ol>
 In summary, libraries provide tools that you can use to perform specific tasks within your application, giving you more control over the structure and flow of your code. Frameworks, on the other hand, provide a structured foundation for building entire applications, with conventions and guidelines that you must follow, which can help speed up development but may limit flexibility.
+</div>
 
 <h4>Q: What is CDN and Why Do we use it?</h4>
 <div style = "font-size:20px"> 
-Ans:A Content Delivery Network (CDN) is a network of geographically distributed servers that work together to provide fast and efficient delivery of web content, such as images, stylesheets, JavaScript files, and other assets, to users. CDNs are used to improve the performance, reliability, and scalability of web applications and websites.
+Ans:A Content Delivery Network (CDN) is a network of geographically distributed servers that work together to provide fast and efficient delivery of web content to users. CDNs are used to improve the performance, reliability, and scalability of web applications and websites.
 
 <h5>1. Faster Content Delivery:</h5>
 <p>CDNs store copies of web content on servers in multiple locations around the world. When a user requests a web page or resource, the CDN can serve it from the server closest to the user. This reduces latency and speeds up content delivery, resulting in faster page load times.</p>
@@ -31,7 +32,7 @@ Ans:A Content Delivery Network (CDN) is a network of geographically distributed 
 2. Load Distribution:</h5>
 <p>CDNs help distribute the load of delivering content. When a website experiences high traffic, the CDN can handle a significant portion of the requests, reducing the load on the origin server. This prevents server overload and maintains consistent performance.</p>
 
-<h5>3. Improved Availability:</h5>\
+<h5>3. Improved Availability:</h5>
 <p>CDNs enhance the availability and reliability of web content. If one server in the CDN network becomes unavailable, requests can be automatically routed to other servers that have copies of the content. This redundancy minimizes downtime.</p>
 
 <h5>3. Scalability:</h5>
@@ -42,4 +43,27 @@ Ans:A Content Delivery Network (CDN) is a network of geographically distributed 
 <p>By offloading the delivery of web content to a CDN, websites can reduce the amount of traffic they need to handle on their origin server. This can lead to cost savings in terms of server infrastructure and bandwidth.</p>
 </div>
 
+<h4>Q: Why is React called React</h4>
+ The name "React" is derived from its ability to react to changes in data and automatically update the user interface accordingly.
+<div style = "font-size:20px">The fundamental idea behind React is the concept of a "reactive" user interface. In a reactive system, when the underlying data changes, the UI reacts to those changes automatically, updating only the parts of the interface that need to change, without requiring manual intervention. This makes it efficient and responsive, especially for complex and dynamic web applications</div>
+
+<div>
+
+<h5>Key principles of React that align with its name include:</h5>
+
+<h5>Virtual DOM:</h5>
+
+ <div style = "font-size:20px">React uses a virtual representation of the user interface, known as the Virtual DOM. When data changes, React "reacts" by updating the Virtual DOM first. It then efficiently calculates the differences (diffing) between the previous and updated Virtual DOM, and applies only those differences to the actual DOM. This approach minimizes unnecessary updates and enhances performance.
+ </div>
+
+<h5>Component-Based:</h5>
+ <div style = "font-size:20px">
+ React encourages the decomposition of user interfaces into small, reusable components. Each component can "react" independently to changes in its own data, making it easier to manage and maintain complex UIs.</div>
+
+<h5>Unidirectional Data Flow: </h5>
+ <div style = "font-size:20px">
+React follows a unidirectional data flow. Data flows from parent components to child components. When data changes at the top level, it flows down the component hierarchy, triggering updates as needed
+</div>
+
+</div>
 </div>
