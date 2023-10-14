@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./index.css" />
+    <title>Namaste React</title>
+  </head>
+  <body>
+    <!-- hello world program using html -->
+
+    <!-- <h1>Element Outside the Root</h1>  this will not be replaced the react since it is outside the root -->
+    <div id="root">Hello World using plain PLAIN "Html"</div>
+    <script>
+      //Hello world program using js --> how to render on the page using js
+
+      //Step-1 --> crete the element using createElemnt API
+
+      let heading = document.createElement("h1"); //create element is the api which we used to create the different html tags using js
+
+      //Step-2 -->after creating the tag we need to fill the content in the tag  for that we can use innerHTML ot innerText
+
+      heading.innerHTML =
+        "Hello world program using js --> how to render on the page using js";
+
+      //Step-3 -->after filling the content we need to Atttach the tag/element to the root element of html . for that we need to get the root element ... so will  access th element by using getElementById / class / querySelector / querySelectorAll to get the element on which we want to work on
+
+      const root = document.getElementById("root");
+
+      //Step-4 --> now we have the root and the element both ready we need to attach the element to root so here we have to make use of append/appendChild
+      root.appendChild(heading);
+
+      //NOTE ---> Here document.getElementBYId , createElement , append ,etc these are the powers that browser already have in it , browser have JS engine  in it that executes this JS code
+
+      // But Browser does not know react to use react we need to get react  into our project
+      // to get the react into our project we can make use of CDN LINK  best place for CDN LInk is at the ending body tag this will pull react into the project
+
+      //
+      //   src="https://unpkg.com/react@18/umd/react.development.js""  this link contains the JavaScript code for react it just the plain Js code for react at end React is a Library which built using JavaScript
+    </script>
+
+    <script
+      crossorigin
+      src="https://unpkg.com/react@18/umd/react.development.js"
+    ></script>
+    <script
+      crossorigin
+      src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"
+    ></script>
+    <!-- this file should be below the CDN links if it is placed above it will not render what is written using React -->
+    <script src="./App.js "></script>
+  </body>
+</html>
+
+<!-- <script
+crossorigin
+src="https://unpkg.com/react@18/umd/react.development.js"
+></scrip>
+<script
+crossorigin
+src="https://unpkg.com/react-dom@18/umd/react-dom.development.js" -->
+
+<!-- Why do we have 2 CDN link for react 
+ANs -> the 1st link is the core file of react
+and the 2nd file consist react dom which is useful for Dom Operation to modify the dom
+
+2. React also work on mobile phone 
+react -->
