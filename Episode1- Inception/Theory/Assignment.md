@@ -111,9 +111,9 @@ In short, React is the core library for building user interfaces, providing the 
 
 <h4>Q: 
 Difference between react.development.js and react.production.js files via CDN<h4>
-<ol>
-<h5>react.development.js:</h5>
 
+<h5>react.development.js:</h5>
+<ol>
 <li>This file is meant for development and debugging purposes.</li>
 
 <li>It contains helpful error messages and warnings that are designed to assist developers in identifying and fixing issues in their code.</li>
