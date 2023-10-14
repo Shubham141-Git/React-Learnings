@@ -81,26 +81,29 @@ For example, if you have a web page hosted at https://example.com, and you try t
 </div>
 
 <div>
-<h4>What is difference  React and react-DOM</h4>
+<h4>Q: What is difference  React and react-DOM</h4>
 
 <h5>React and ReactDOM are two related but distinct libraries in the React ecosystem, and they serve different purposes:</h5>
-
+<ul>
 <h5>React:</h5>
-<div style ="margin-bottom :15px"></div>
-<div style ="margin-bottom :15px">React is the core library for building user interfaces in the React ecosystem.</div>
 
-<div style ="margin-bottom :15px">It provides the foundational concepts for creating and managing components, handling state and props, and rendering UI elements.</div>
+<li><div style ="margin-bottom :15px">React is the core library for building user interfaces in the React ecosystem.</div></li>
+
+<li><div style ="margin-bottom :15px">It provides the foundational concepts for creating and managing components, handling state and props, and rendering UI elements.</div></li>
 
 <h5>React-DOM:</h5>
 
-<div style ="margin-bottom :15px">
+<li><div style ="margin-bottom :15px">
 ReactDOM is a specific package within the React ecosystem that deals with rendering React components in the web browser.
-</div>
+</div></li>
 
-<div style ="margin-bottom :15px">It provides the necessary functionality to take the components you've built using React and render them into the actual DOM (the structure of a web page).</div>
+<li>
+<div style ="margin-bottom :15px">It provides the necessary functionality to take the components you've built using React and render them into the actual DOM (the structure of a web page).</div></li>
+<li>
+<div style ="margin-bottom :15px">ReactDOM is used when you want to create web applications and render your React components in a web browser.</div></li>
 
-<div style ="margin-bottom :15px">ReactDOM is used when you want to create web applications and render your React components in a web browser.</div>
-
+<li>
 In short, React is the core library for building user interfaces, providing the foundation for creating components and managing their behavior. ReactDOM is a package within the React ecosystem specifically designed for rendering those components into the web browser's DOM. While React can be used for various platforms, ReactDOM is focused on web development. Depending on your project, you may use React with different rendering libraries or platforms, but for web applications, ReactDOM is the common choice
-
+</li>
+</ul>
 </div>
