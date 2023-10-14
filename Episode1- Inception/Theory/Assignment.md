@@ -45,7 +45,7 @@ Ans:A Content Delivery Network (CDN) is a network of geographically distributed 
 
 <h4>Q: Why is React called React</h4>
  The name "React" is derived from its ability to react to changes in data and automatically update the user interface accordingly.
-<div style = "font-size:20px">The fundamental idea behind React is the concept of a "reactive" user interface. In a reactive system, when the underlying data changes, the UI reacts to those changes automatically, updating only the parts of the interface that need to change, without requiring manual intervention. This makes it efficient and responsive, especially for complex and dynamic web applications</div>
+<div style = "font-size:20px">The fundamental idea behind React is the concept of a "reactive" user interface. In a reactive system, when the  data changes, the UI reacts to those changes automatically, updating only the parts of the interface that need to change, without requiring manual intervention. This makes it efficient and responsive, especially for complex and dynamic web applications</div>
 
 <div>
 
@@ -66,4 +66,23 @@ React follows a unidirectional data flow. Data flows from parent components to c
 </div>
 
 </div>
+</div>
+
+<div>
+
+<h5>What is cross-origin in the script tag</h5>
+
+ <div style = "font-size:20px">
+ <div>
+The "cross-origin"  in the context of a script tag  tells about to the security policy known as the "Same-Origin Policy." This policy is a fundamental web security measure designed to protect user data and privacy.
+</div>
+<div>
+The Same-Origin Policy dictates that web pages can only make requests (such as loading scripts) to the same origin (domain, protocol, and port) from which the web page originated. If you try to load a script from a different origin, the browser will block it due to security concerns.
+</div>
+
+<div>
+For example, if you have a web page hosted at https://example.com, and you try to load a script from https://anotherdomain.com, you'll likely encounter a "cross-origin" issue. The browser will prevent the script from being executed to protect against potential security threats, like cross-site scripting (XSS) attacks.
+<div>
+ </div>
+
 </div>
