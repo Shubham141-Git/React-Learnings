@@ -67,18 +67,18 @@ React follows a unidirectional data flow. Data flows from parent components to c
 
 <h4> Q: What is cross-origin in the script tag</h5>
 
- <div style = "font-size:20px">
- <div style ="margin-bottom :15px">
+ <ol>
+ <li>
 The "cross-origin"  in the context of a script tag  tells about to the security policy known as the "Same-Origin Policy." This policy is a fundamental web security measure designed to protect user data and privacy.
-</div>
-<div style ="margin-bottom :15px">
+</li>
+<li>
 The Same-Origin Policy dictates that web pages can only make requests (such as loading scripts) to the same origin (domain, protocol, and port) from which the web page originated. If you try to load a script from a different origin, the browser will block it due to security concerns.
-</div>
+</li>
 
-<div style ="margin-bottom :15px">
+<li>
 For example, if you have a web page hosted at https://example.com, and you try to load a script from https://anotherdomain.com, you'll likely encounter a "cross-origin" issue. The browser will prevent the script from being executed to protect against potential security threats, like cross-site scripting (XSS) attacks.
-</div>
-</div>
+</li>
+</ol>
 
 <div>
 <h4>Q: What is difference  React and react-DOM</h4>
@@ -130,4 +130,15 @@ Difference between react.development.js and react.production.js files via CDN<h4
 <li>When using react.production.js, your application should run more efficiently, but you may receive less detailed error information in the console, making it less suitable for debugging.</li>
 </ol>
 
+</div>
+
+<div>
+
+<h4> Q: what is Async and Defer</h4>
+
+<ul>
+<li>  Asyncs and defer are the attributes which are used along with script tag to load the external script efficiently to a web page</li>
+<li>when we use the async atrribute in script tag it will fetch the script from the network while it is parsing the  html(in parallel). Once the script are available the html parsing stops and scripts are executed then and there after completion from script execution then it will continue html parsing i.e async will block the html parsing </li>
+<li>when we use the defer atrribute in script tag it will fetch the script from the network while it is parsing the  html(in parallel). and it will execute the scripts after the html parsing is completed  i.e it will not block the html parsing </li>
+<ul>
 </div>
