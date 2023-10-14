@@ -65,9 +65,7 @@ Ans:A Content Delivery Network (CDN) is a network of geographically distributed 
 React follows a unidirectional data flow. Data flows from parent components to child components. When data changes at the top level, it flows down the component hierarchy, triggering updates as needed
 </div>
 
-<div>
-
-<h5> Q: What is cross-origin in the script tag</h5>
+<h4> Q: What is cross-origin in the script tag</h5>
 
  <div style = "font-size:20px">
  <div>
@@ -79,7 +77,5 @@ The Same-Origin Policy dictates that web pages can only make requests (such as l
 
 <div>
 For example, if you have a web page hosted at https://example.com, and you try to load a script from https://anotherdomain.com, you'll likely encounter a "cross-origin" issue. The browser will prevent the script from being executed to protect against potential security threats, like cross-site scripting (XSS) attacks.
-<div>
- </div>
-
+</div>
 </div>
