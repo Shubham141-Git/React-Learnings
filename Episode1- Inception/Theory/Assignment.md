@@ -47,7 +47,7 @@ Ans:A Content Delivery Network (CDN) is a network of geographically distributed 
  The name "React" is derived from its ability to react to changes in data and automatically update the user interface accordingly.
 <div style = "font-size:20px">The fundamental idea behind React is the concept of a "reactive" user interface. In a reactive system, when the  data changes, the UI reacts to those changes automatically, updating only the parts of the interface that need to change, without requiring manual intervention. This makes it efficient and responsive, especially for complex and dynamic web applications</div>
 
-<div>
+</div>
 
 <h5>Key principles of React that align with its name include:</h5>
 
@@ -65,12 +65,9 @@ Ans:A Content Delivery Network (CDN) is a network of geographically distributed 
 React follows a unidirectional data flow. Data flows from parent components to child components. When data changes at the top level, it flows down the component hierarchy, triggering updates as needed
 </div>
 
-</div>
-</div>
-
 <div>
 
-<h5>What is cross-origin in the script tag</h5>
+<h5> Q: What is cross-origin in the script tag</h5>
 
  <div style = "font-size:20px">
  <div>
