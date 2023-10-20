@@ -29,16 +29,16 @@ Example 1 using JSX:
 
 <script>
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(myElement);
+// const root = ReactDOM.createRoot(document.getElementById('root'));
+// root.render(myElement);
 </script>
 
 Example 2 Without JSX:
 
 <script>
-const myElement = React.createElement('h1', {}, 'I do not use JSX!');
-const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(myElement);  const myElement = <h1>I Love JSX!</h1>;
+// const myElement = React.createElement('h1', {}, 'I do not use JSX!');
+// const root = ReactDOM.createRoot(document.getElementById('root'));
+// root.render(myElement);  const myElement = <h1>I Love JSX!</h1>;
 
 </script>
 
