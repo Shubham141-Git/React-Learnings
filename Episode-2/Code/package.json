@@ -1,0 +1,22 @@
+{
+  "name": "episode-2",
+  "version": "1.0.0",
+  "description": "Namaste react episode 2",
+  "main": "App.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "Shubham",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel": "^2.10.0",
+    "process": "^0.11.10"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "browserslist": [
+    "last 5 version"
+  ]
+}
