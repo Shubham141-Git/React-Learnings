@@ -59,7 +59,9 @@ It has a Default value which is “text/javascript”.
 
  </div>
 
-<!-- <h4>Q: {{TitleComponent} vs {"TitleComponent/"} vs "TitleComponent>TitleComponent/> }</h4> -->
+{
+
+<h4>Q: {{TitleComponent} vs {"TitleComponent/"} vs "TitleComponent>TitleComponent/> }</h4>
 
  <div style = "font-size:20px"> 
  {TitleCompoent} --> This value describes the TitleComponent as a javascript expression or a variable. The {} can embed a javascript expression or a variable inside it.
@@ -69,3 +71,4 @@ TitleComponent/> : This value represents a Component that is basically returning
 TitleComponent>/TitleComponent> : TitleComponent /> and TitleComponent>/TitleComponent> are equivalent only when < TitleComponent /> has no child components. The opening and closing tags are created to include the child components.
 
  </div>
+ }
