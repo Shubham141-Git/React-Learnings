@@ -59,4 +59,4 @@ It has a Default value which is “text/javascript”.
 
  </div>
 
-<h4>{TitleComponent} vs {"<TitleComponent/>"} vs "<TitleComponent><TitleComponent/>" </h4>
+<h4>{{TitleComponent} vs {"TitleComponent/"} vs "TitleComponent>TitleComponent/> }</h4>
