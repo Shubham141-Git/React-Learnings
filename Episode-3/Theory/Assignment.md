@@ -6,18 +6,22 @@ But the JS Engine doesn't understand the JSX Code. so this code is converted int
 
 <script>
 
-"<h1>This is an react element</h1>"
+{"<h1>This is an react Element</h1>"}
+<br>
 
 "Babel will convert this piece of code into"
+<br>
 
 "React.createElement("h1" , {} , "This is an react Element")"
 
  "the Above code is interpreted by the browser and is rendered on the screen"
+ <br>
 
 
 </script>
 
 JSX makes the code developer friendly which result into Readable code.
+<br>
 
 In short JSX allows us to write HTML elements in JavaScript and place them in the DOM without any createElement() and/or appendChild() methods. JSX makes it easier to write and add HTML in React. JSX converts HTML tags into react elements.
 
@@ -25,7 +29,6 @@ Example 1 using JSX:
 
 <script>
 
-    const myElement = <h1>I Love JSX!</h1>;
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(myElement);
 </script>
@@ -35,7 +38,8 @@ Example 2 Without JSX:
 <script>
 const myElement = React.createElement('h1', {}, 'I do not use JSX!');
 const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(myElement);
+root.render(myElement);  const myElement = <h1>I Love JSX!</h1>;
+
 </script>
 
 </div>
