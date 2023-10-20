@@ -43,3 +43,20 @@ Example 2 Without JSX:
 </script>
 
 </div>
+
+ <h4 > Q: What is super power of JSX</h4>
+
+ <div style = "font-size:20px"> 
+ 
+The type attribute in the script tag specifies the  content type of the script within the tag. It tells the browser how to interpret and execute the script.
+It has a Default value which is “text/javascript”.
+<div>
+1.For JavaScript modules, use type="module". This is used when you're working with ES6 modules and importing/exporting JavaScript code.
+</div>
+<div>
+2.JSON Data: If you're embedding JSON data within a script tag, you can use type="application/json". The data inside the tag should be well-formed JSON.
+<div>
+
+ </div>
+
+<h4>{TitleComponent} vs {"<TitleComponent/>"} vs "<TitleComponent><TitleComponent/>" </h4>
