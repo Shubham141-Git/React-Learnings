@@ -1,0 +1,96 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid black;
+}
+
+.nav-items > ul {
+  display: flex;
+  list-style-type: none;
+  font-size: 24px;
+}
+
+.nav-items {
+  padding-right: 10px;
+}
+
+.nav-items > ul > li {
+  padding: 10px;
+  margin: 10px;
+  cursor: pointer;
+}
+
+.res-card {
+  width: 200px;
+  overflow: hidden;
+  margin-right: 7px;
+  margin-bottom: 15px;
+}
+.res-logo {
+  width: 190px;
+  height: 40%;
+  padding: 5px;
+  object-fit: cover;
+}
+
+.res-card:hover {
+  border: 1px solid black;
+  cursor: pointer;
+}
+
+.search {
+  padding: 10px;
+}
+
+.restaurant {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.filter-btn {
+  margin: 10px;
+  cursor: pointer;
+}
+
+.ShimmerCard {
+  width: 200px;
+  height: 300px;
+  background-color: gray;
+
+  margin: 20px;
+}
+
+.shimmer-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.loginbtn {
+  padding: 0, 20px;
+  cursor: pointer;
+}
+
+.filter {
+  display: flex;
+}
+
+.res-menu {
+  display: flex;
+  flex-direction: colomn;
+  flex-wrap: wrap;
+}
+.menu {
+  display: flex;
+
+  flex-wrap: wrap;
+}
+
+.nav-link {
+  text-decoration: none !important;
+  color: unset !important;
+}
+
+.user-card {
+  padding: 10px;
+  border: 1px solid black;
+}
